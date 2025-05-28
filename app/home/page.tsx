@@ -9,7 +9,7 @@ export default function HomePage({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <main className=" flex flex-col mx-auto  bg-neutral-100">
+    <div className=" flex flex-col mx-auto  bg-neutral-100">
       <PreHeader />
       <div className="relative size-full mx-auto ">
         <Image
@@ -51,6 +51,6 @@ export default function HomePage({
           </article>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

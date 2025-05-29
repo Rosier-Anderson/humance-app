@@ -1,9 +1,9 @@
-import PreHeader from "../ui/home/pre-header";
+import PreHeader from "../../ui/home/pre-header";
 import Image from "next/image";
-import HeroImage from "../../public/hero-header.png";
+import HeroImage from "../../../public/hero-header.png";
 
-import Header from "../ui/home/header";
-import HeroText from "../ui/home/hero-text";
+import Header from "../../ui/home/header";
+import HeroText from "../../ui/home/hero-text";
 
 export default function HomePage({
   children,

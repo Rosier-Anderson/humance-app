@@ -5,7 +5,7 @@ import { DM_SansFont } from "../fonts";
 // HeroText component - this is the main call-to-action section of the homepage
 export default function HeroText() {
   return (
-    <div className="flex flex-col absolute inset-x-0 max-md:bottom-1 min-lg:bottom-45  bottom-2 text-white p-10 gap-6 ml-5">
+    <div className="flex flex-col absolute inset-x-0 max-md:bottom-1 min-lg:bottom-35  bottom-2 text-white p-10 gap-6 ml-20">
       <h2 className="font-bold">
         <span className="lg:text-8xl text-5xl tracking-wide">THE FUTURE</span>
         <br />

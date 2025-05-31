@@ -30,7 +30,7 @@ export default function Header() {
             <span className="whitespace-nowrap font-bold text-lg p-2">
               Get in touch
             </span>
-            <span className="bg-white group-hover:bg-teal-400 w-11 h-11 rounded-lg flex items-center justify-center">
+            <span className="bg-white group-hover:bg-teal-400 w-10 h-10 rounded-lg flex items-center justify-center">
               <MdArrowOutward className="w-4 h-4 text-[#063137]" />
             </span>
           </Link>
